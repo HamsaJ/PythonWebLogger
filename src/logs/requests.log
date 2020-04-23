@@ -1,0 +1,56 @@
+[2019-06-06 00:45:23,274] {app.py:17} DEBUG - started app
+[2019-06-06 00:45:23,280] {base_events.py:1403} INFO - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> is serving
+[2019-06-06 00:45:25,425] {base_events.py:1729} INFO - poll took 2135.851 ms: 1 events
+[2019-06-06 00:45:25,426] {selector_events.py:159} DEBUG - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> got a new connection from ('127.0.0.1', 53128): <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 53128)>
+[2019-06-06 00:45:25,436] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 732 5252
+[2019-06-06 00:45:27,358] {base_events.py:1733} INFO - poll 4999.878 ms took 1921.645 ms: 1 events
+[2019-06-06 00:45:27,364] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 920 4006
+[2019-06-06 00:45:28,697] {base_events.py:1733} INFO - poll 4999.839 ms took 1331.941 ms: 1 events
+[2019-06-06 00:45:28,703] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 1024 3929
+[2019-06-06 00:45:29,914] {base_events.py:1733} INFO - poll 4999.786 ms took 1210.851 ms: 1 events
+[2019-06-06 00:45:29,920] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 1024 4067
+[2019-06-06 00:45:31,082] {base_events.py:1733} INFO - poll 4999.835 ms took 1161.438 ms: 1 events
+[2019-06-06 00:45:31,088] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 1024 4167
+[2019-06-06 00:45:32,212] {base_events.py:1733} INFO - poll 4999.852 ms took 1122.667 ms: 1 events
+[2019-06-06 00:45:32,217] {h11.py:143} INFO - 127.0.0.1:53128 GET /logs 1.1 200 1024 4091
+[2019-06-06 00:45:37,219] {base_events.py:1737} INFO - poll 4999.824 ms took 5000.711 ms: timeout
+[2019-06-06 00:45:40,214] {base_events.py:1729} INFO - poll took 2994.712 ms: 1 events
+[2019-06-06 00:45:40,215] {selector_events.py:159} DEBUG - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> got a new connection from ('127.0.0.1', 53131): <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 53131)>
+[2019-06-06 00:45:40,221] {h11.py:143} INFO - 127.0.0.1:53131 GET /logs 1.1 200 1024 3416
+[2019-06-06 00:45:45,224] {base_events.py:1737} INFO - poll 4999.774 ms took 5002.082 ms: timeout
+[2019-06-06 00:45:49,624] {base_events.py:1729} INFO - poll took 4399.329 ms: 1 events
+[2019-06-06 00:45:49,624] {selector_events.py:159} DEBUG - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> got a new connection from ('127.0.0.1', 53132): <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 53132)>
+[2019-06-06 00:45:49,630] {h11.py:143} INFO - 127.0.0.1:53132 GET /logs 1.1 200 1024 3607
+[2019-06-06 00:45:50,911] {base_events.py:1733} INFO - poll 4999.887 ms took 1280.491 ms: 1 events
+[2019-06-06 00:45:50,917] {h11.py:143} INFO - 127.0.0.1:53132 GET /logs 1.1 200 1024 4140
+[2019-06-06 00:45:55,921] {base_events.py:1737} INFO - poll 4999.859 ms took 5003.606 ms: timeout
+[2019-06-06 00:46:40,723] {base_events.py:1729} INFO - poll took 44801.791 ms: 1 events
+[2019-06-06 00:46:40,724] {selector_events.py:159} DEBUG - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> got a new connection from ('127.0.0.1', 53138): <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 53138)>
+[2019-06-06 00:46:45,723] {base_events.py:1733} INFO - poll 4999.344 ms took 4997.293 ms: 1 events
+[2019-06-06 00:46:45,724] {selector_events.py:820} DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> received EOF
+[2019-06-06 00:46:45,786] {base_events.py:1729} DEBUG - poll took 60.051 ms: 1 events
+[2019-06-06 00:46:45,786] {selector_events.py:159} DEBUG - <Server sockets=[<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000)>]> got a new connection from ('127.0.0.1', 53141): <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 5000), raddr=('127.0.0.1', 53141)>
+[2019-06-06 00:46:50,786] {base_events.py:1733} INFO - poll 4999.601 ms took 4998.163 ms: 1 events
+[2019-06-06 00:46:50,787] {selector_events.py:820} DEBUG - <_SelectorSocketTransport fd=8 read=polling write=<idle, bufsize=0>> received EOF
+[2019-06-16 11:58:54,512] {base_events.py:607} DEBUG - Close <_UnixSelectorEventLoop running=False closed=False debug=True>
+[2020-04-23 13:35:47,031] {app.py:17} DEBUG - started app
+[2020-04-23 13:35:47,031] {selector_events.py:58} DEBUG - Using selector: KqueueSelector
+[2020-04-23 13:35:47,033] {selector_events.py:58} DEBUG - Using selector: KqueueSelector
+[2020-04-23 13:35:52,423] {__init__.py:19} DEBUG - route1()
+[2020-04-23 13:35:52,424] {logging.py:26} INFO - 127.0.0.1:65397 GET / 1.1 200 28 1967
+[2020-04-23 13:35:52,467] {logging.py:26} INFO - 127.0.0.1:65398 GET /favicon.ico 1.1 404 103 2769
+[2020-04-23 13:35:52,469] {logging.py:26} INFO - 127.0.0.1:65399 GET /apple-touch-icon-precomposed.png 1.1 404 103 2438
+[2020-04-23 13:35:52,471] {logging.py:26} INFO - 127.0.0.1:65399 GET /apple-touch-icon.png 1.1 404 103 710
+[2020-04-23 13:36:32,143] {__init__.py:19} DEBUG - route1()
+[2020-04-23 13:36:32,144] {logging.py:26} INFO - 127.0.0.1:65404 GET / 1.1 200 28 1149
+[2020-04-23 13:36:34,694] {logging.py:26} INFO - 127.0.0.1:65405 GET /logs 1.1 200 1024 1210
+[2020-04-23 13:36:34,709] {logging.py:26} INFO - 127.0.0.1:65404 GET /favicon.ico 1.1 404 103 804
+[2020-04-23 13:36:43,990] {logging.py:26} INFO - 127.0.0.1:65411 GET /logs 1.1 200 1024 1200
+[2020-04-23 13:36:44,019] {logging.py:26} INFO - 127.0.0.1:65411 GET /favicon.ico 1.1 404 103 1069
+[2020-04-23 13:38:22,822] {app.py:17} DEBUG - started app
+[2020-04-23 13:38:22,823] {selector_events.py:58} DEBUG - Using selector: KqueueSelector
+[2020-04-23 13:38:22,825] {selector_events.py:58} DEBUG - Using selector: KqueueSelector
+[2020-04-23 13:38:25,714] {logging.py:26} INFO - 127.0.0.1:65420 GET /logs 1.1 200 6531 2979
+[2020-04-23 13:38:36,625] {logging.py:26} INFO - 127.0.0.1:65424 GET /logs 1.1 200 6625 1194
+[2020-04-23 13:38:46,082] {logging.py:26} INFO - 127.0.0.1:65426 GET /logs 1.1 200 6719 1239
+[2020-04-23 13:39:08,282] {selector_events.py:58} DEBUG - Using selector: KqueueSelector
